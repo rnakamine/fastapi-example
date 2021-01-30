@@ -10,7 +10,7 @@ class Item(BaseModel):
     is_offer: bool = None
 
 
-@app.get('/')
+@app.get("/")
 def read_root():
     return {"Hello": "World"}
 
